@@ -36,4 +36,6 @@ async function handleCookieAccess() {
   }
 }
 
-await handleCookieAccess();
+(async () => {
+  await handleCookieAccess();
+})();
