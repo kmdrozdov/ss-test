@@ -38,4 +38,6 @@ async function handleCookieAccess() {
 
 (async () => {
   await handleCookieAccess();
+
+  console.log('Cookies', document.cookie)
 })();
