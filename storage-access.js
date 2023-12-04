@@ -1,5 +1,6 @@
 function doThingsWithCookies() {
-  document.cookie = 'foo=bar; SameSite=None; Secure; Partitioned;';
+  // document.cookie = 'foo=bar; SameSite=None; Secure; Partitioned;';
+  document.cookie = 'foo=bar;';
 }
 
 async function handleCookieAccess() {
